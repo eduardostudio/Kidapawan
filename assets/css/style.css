@@ -1,10 +1,54 @@
 .paging {
-  background: #000;
-  border-bottom: dotted;
+  padding-top: 16px;
 }
 .paging hr {
   border: 0.4px dotted #656565;
   margin: 0px;
+}
+.menu {
+  background-color: #000000;
+  background-image: url(header.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.menu .top-header {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.menu .top-header i.fa.fa-envelope-o {
+  color: #fff;
+  font-size: 40px;
+}
+.menu .top-header i.fa.fa-mobile {
+  color: #fff;
+  font-size: 40px;
+}
+.menu .navbar-default {
+  background-color: #1c0e35;
+  border-color: #1c0e35;
+}
+.menu .navbar {
+  border-radius: 0px;
+}
+.menu .navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.menu .navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 18px;
+}
+.menu .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.menu .navbar .navbar-collapse {
+  text-align: center;
 }
 .main h1 {
   font-size: 24px;
@@ -14,15 +58,41 @@
   font-style: 21px !important;
   font-weight: 700;
 }
+.main h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1c0e35;
+  margin-top: 14px;
+  padding-left: 20px;
+}
+.main .service .count {
+  font-weight: 600;
+  font-size: 90px;
+  color: #1c0e35;
+  text-align: right;
+  line-height: 1;
+}
+.main .padding-b {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 .main .news {
   border: 0.5px #d8d3d3 solid;
 }
 .main .news h4 {
-  padding: 11px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.main .news .press {
+  padding-top: 15px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  color: #636363;
 }
 .main .news p {
   padding-top: 1px;
-  padding: 0px 0px 15px 20px;
+  padding: 1px 7px 15px 20px;
 }
 .main .news img {
   width: 100%;
@@ -30,11 +100,122 @@
 .main .news .padding-b {
   padding-bottom: 30px;
 }
-.main .news .social {
-  border-top: 1px solid rgba(228, 220, 220, 0.35);
+.main .news .social-blog {
   background: #f8f8f8;
-  width: 99.9%;
+  margin: 1px;
 }
-.main .news .social p {
+.main .news .social-blog a {
+  color: #fff;
+}
+.main .news .social-blog .facebook {
+  background: #3a56a2 !important;
+}
+.main .news .social-blog .twitter {
+  background: #22b0ec !important;
+}
+.main .news .social-blog .google {
+  background: #be3c24 !important;
+}
+.main .news .social-blog .pinterest {
+  background: #b11718 !important;
+}
+.main .news .social-blog p {
   padding: 0px;
+}
+.main .news .social-blog i.fa.fa-retweet {
+  font-size: 21px;
+  padding: 10px 3px 9px 16px;
+}
+.main .news .social-blog ul,
+.main .news .social-blog ol {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.main .news .social-blog .list-inline > li {
+  display: inline-block;
+  background: #b7b7b7;
+  padding: 10px 0px 10px 12px !important;
+  width: 35px;
+}
+.main .brand {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f4f4f5;
+}
+.main .brand img {
+  max-width: 200px;
+  max-height: 81px;
+}
+.main .brand .list-inline > li {
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.main .testimonial {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.main .post {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f4f4f5;
+}
+.main .post h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.main .post .thumbnail {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.main .post .thumbnail h3 {
+  font-size: 17px;
+}
+.main .post h3 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.main .post h3 span {
+  padding-left: 40px;
+  font-weight: 200;
+}
+.main .social {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main .social a {
+  font-size: 32px;
+  padding: 20px;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f4f4f5;
+}
+.footer .content {
+  padding-right: 80px;
+}
+.footer h1 {
+  font-size: 28px;
+}
+.footer .envelop-icon {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 35px;
+  color: #acacac;
+}
+.footer hr {
+  border-top: 1px solid #c3c3c3;
+}
+.footer .contact {
+  font-size: 16px;
+}
+.footer-bottom {
+  background: #b7b7b7;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.footer-bottom a {
+  color: #000000;
 }
